@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="az">
 <head>
-    <title>Mənim İlk Saytım</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHECK WES STYLE</title>
+    <style>
+        /* Saytın ümumi stili */
+        body {
+            background-color: #000; /* Qara fon */
+            color: #fff; /* Ağ yazılar */
+            font-family: 'Courier New', Courier, monospace; /* Maşın yazısı stili */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            text-transform: uppercase; /* Bütün hərflər böyük */
+        }
+
+        /* Başlıq hissəsi */
+        h1 {
+            font-size: 5vw;
+            letter-spacing: 15px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #fff;
+        }
+
+        /* Menyu linkləri */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: 0.3s;
+            border: 1px solid transparent;
+            padding: 5px 20px;
+        }
+
+        /* Linkin üzərinə gələndə effekt */
+        .links a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Alt hissə */
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
-    <h1>Salam, Dünya!</h1>
-    <p>Bu mənim GitHub-da hazırladığım ilk pulsuz vebsaytdır.</p>
+
+    <h1>SHECK WES</h1>
+
+    <div class="links">
+        <a href="#">MUSIC</a>
+        <a href="#">VIDEOS</a>
+        <a href="#">TOUR</a>
+        <a href="#">SHOP</a>
+        <a href="#">CACTUS JACK</a>
+    </div>
+
+    <footer>
+        © 2026 SHECK WES. ALL RIGHTS RESERVED.
+    </footer>
+
 </body>
 </html>
